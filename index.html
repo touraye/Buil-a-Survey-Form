@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body style="background-image: url(bc.jpg); background-size: cover; background-repeat: no-repeat;">
+
+    <div  class="main-wrapper">
+
+        <div class="form-wrapper">
+            
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        
+        <p id="description"> Thank you for taking the time to help us improve the platform </p>
+    
+        
+       <div class="form-wrapper2">
+        <form action="" id="survey-form">
+            
+            <div class="form-group">
+                <label  for="name" id="name-label">Name</label>
+                <input type="text" name="name"  id="name" placeholder="Enter your name" required>
+            </div>
+    
+            
+            <div class="form-group">
+                <label for="email" id="email-label">Email</label>
+                
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            </div>
+    
+            
+           <div class="form-group">
+            
+                <label for="number" id="number-label">Age (optional)</label>                
+                    <input placeholder="Age" id="number" type="number" name="number" min="10" max="100" id="number">
+           </div>
+    
+           <div class="form-group">
+            <label for="role">
+                Which option best describes your current role?
+            </label>
+            
+            <select aria-placeholder="Select an option"  name="Select an option"  id="dropdown">
+                <option value="" selected>Select an option--</option>
+                <option value="freelance">freelance</option>
+                <option value="Home-school">Home-school</option>
+                <option value="Git">Git</option>
+                <option value="Bootcamp">Bootcamp</option>
+                
+            </select>
+        </div>
+    
+        <div class="form-group">
+           <label for="">Would you recommend freeCodeCamp to a friend?</label>
+        </div>
+    
+        
+            <div class="form-group">
+                <input type="radio" name="choice" id="definitely" value="definitely">
+            <label for="Definitely">Definitely</label>
+            </div>
+            
+            <div class="form-group">
+                <input  type="radio" name="choice" id="maybe" value="definitely" >
+            <label for="Not sure">Maybe</label>
+            </div>
+            
+            
+            <div class="form-group">
+                <input  type="radio" name="choice" id="not sure" value="definitely" >
+            <label for="Not sure">Not sure</label>
+            </div>
+                                                  
+        
+    
+        
+    
+        <div class="form-group">
+            <label for=""> What is your favorite feature of freeCodeCamp? </label>
+    
+            <select name="" id="">
+                <option value="" selected>
+                    Select an option--
+                </option>
+                <option value="Challenges">Challenges</option>
+                <option value="Projects">Projects</option>
+                <option value="Community">Community</option>
+                <option value="Open soucre">Open soucre</option>
+            </select>
+        </div>
+    
+        <div class="form-group">
+            <label for=""> What would you like to see improved? (Check all that apply) </label>        
+        </div>
+    
+        <div  class="form-group">
+            <input value="attribute"  type="checkbox" name="Front-ent Projects" id="front_end_projects">
+            <label for="Front-ent Projects">
+                Front-ent Projects</label>
+            
+        </div>
+    
+        <div class="form-group">
+            <input value="attribute"  type="checkbox" name="back-ent Projects" id="back-ent_Projects">
+            <label for="Back-ent Projects">
+                Back-ent Projects</label>
+        </div>
+    
+        <div class="form-group">
+            <input value="attribute" type="checkbox" name="furom" id="furom">
+            <label for="Form">Furom</label>
+        </div>
+    
+        <div class="form-group">
+            <input value="attribute" type="checkbox" name="data_visualization" id="data_visualization">
+            <label for="Data Visualization">Data Visualization</label>
+        </div>
+
+        <div class="form-group">
+            <input value="attribute" type="checkbox" name="fullstack" id="fullstack">
+            <label for="Fullstack">Fullstack</label>
+        </div>
+       
+        
+        <div class="form-group">
+            <label for="comments">Any comments or suggestions?</label>
+        </div>
+    
+        <div class="form-group">
+            <textarea name="comments" id="comments" placeholder="Enter your comment here..."></textarea>
+        </div>
+    
+        <div class="form-group">
+            <input id="submit" type="submit" value="Submit">
+        </div>
+        </form>
+       </div>
+    
+        </div>
+
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
